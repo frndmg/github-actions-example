@@ -1,9 +1,9 @@
-name: Bump Version
+name: Bump Pre Release Version
 
 on:
   push:
     branches:
-      - master
+      - dev
 
 jobs:
   bump:
@@ -27,17 +27,11 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          cz bump --yes --changelog
+          cz bump --yes -pr rc
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
-          tags: "true"
-
-      - name: Push changes back to dev
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: dev
           tags: "true"
