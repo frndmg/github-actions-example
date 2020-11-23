@@ -1,3 +1,9 @@
+## 0.1.6 (2020-11-23)
+
+### Fix
+
+- use personal github token
+
 ## 0.1.5 (2020-11-23)
 
 ### Fix
