@@ -1,3 +1,9 @@
+## 0.1.7 (2020-11-23)
+
+### Fix
+
+- update release and image creation
+
 ## 0.1.6 (2020-11-23)
 
 ### Fix
