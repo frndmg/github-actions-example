@@ -1,3 +1,18 @@
+## 0.1.8 (2020-11-23)
+
+## 0.1.8rc1 (2020-11-23)
+
+### Fix
+
+- use correct token
+
+## 0.1.8rc0 (2020-11-23)
+
+### Fix
+
+- add dev branch and workflow for that
+- add dev branch and workflow for that
+
 ## 0.1.7 (2020-11-23)
 
 ### Fix

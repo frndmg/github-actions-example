@@ -11,7 +11,7 @@ python = "^3.7"
 autopep8 = "^1.5.4"
 
 [tool.commitizen]
-version = "0.1.8rc1"
+version = "0.1.8"
 version_files = [
     "primes/__init__.py",
 ]
