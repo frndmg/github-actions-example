@@ -1,4 +1,4 @@
-name: Create release
+name: Create Release
 
 on:
   push:
@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Create release
