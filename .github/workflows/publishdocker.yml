@@ -20,7 +20,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: docker.pkg.github.com/frndmg/github-actions-example/primes
+          images: ghcr.io/frndmg/primes
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
@@ -34,7 +34,7 @@ jobs:
       - name: Login to GitHub Packages Registry
         uses: docker/login-action@v1 
         with:
-          registry: docker.pkg.github.com
+          registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
