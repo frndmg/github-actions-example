@@ -15,6 +15,7 @@ version = "0.2.0rc9"
 version_files = [
     "primes/__init__.py",
 ]
+tag_format = "v$version"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
