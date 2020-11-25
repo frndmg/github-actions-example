@@ -4,4 +4,4 @@ __all__ = [
     'primes',
 ]
 
-__version__ = '0.3.0rc0'
+__version__ = '0.3.0'

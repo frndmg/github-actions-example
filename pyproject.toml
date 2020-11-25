@@ -13,7 +13,7 @@ pytest-xdist = "^2.1.0"
 flake8 = "^3.8.4"
 
 [tool.commitizen]
-version = "0.3.0rc0"
+version = "0.3.0"
 version_files = [
     "primes/__init__.py",
 ]
