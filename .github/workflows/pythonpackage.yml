@@ -38,7 +38,6 @@ jobs:
 
       - name: Lint
         run: |
-          # stop the build if there are Python syntax errors or undefined names
           poetry run flake8 .
 
       - name: Test
