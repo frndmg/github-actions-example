@@ -21,6 +21,7 @@ jobs:
         uses: crazy-max/ghaction-docker-meta@v1
         with:
           images: ghcr.io/frndmg/primes
+          tag-match-latest: ${{ !contains(github.ref, 'rc') }}
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
