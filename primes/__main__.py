@@ -1,7 +1,7 @@
 import argparse
 from itertools import islice
 
-from .primes import primes
+from .primes import Primes
 
 
 def take(n, xs):
@@ -19,7 +19,7 @@ def main():
 
     print(
         '\n'.join(
-            map(str, take(args.n, primes()))
+            map(str, take(args.n, Primes()))
         )
     )
 

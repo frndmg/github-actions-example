@@ -1,7 +1,8 @@
-from .primes import primes
+from .primes import is_prime, Primes
 
 __all__ = [
-    'primes',
+    'is_prime',
+    'Primes',
 ]
 
-__version__ = '0.3.0'
+__version__ = '1.0.0rc0'
