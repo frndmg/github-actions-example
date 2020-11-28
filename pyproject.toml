@@ -15,7 +15,7 @@ pytest-cov = "^2.10.1"
 hypothesis = "^5.41.4"
 
 [tool.commitizen]
-version = "1.0.0rc0"
+version = "1.0.0"
 version_files = [
     "primes/__init__.py",
 ]
